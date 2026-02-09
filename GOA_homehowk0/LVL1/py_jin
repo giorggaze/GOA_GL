@@ -1,0 +1,12 @@
+import time
+print("jien")
+n1 = input("What is you name? :")
+print(f"Heloooooo,{n1}, you have 3 wish.")
+n2 = input("What you wish? :")
+n3 = input("What you wish? :")
+n4 = input("What you wish? :")
+print(f"i see you whant 1){n2}. 2){n3}.  and 3){n4}")
+time.sleep(0.5)
+print("will grand your wishes, whait for it")
+time.sleep(2)
+print(f"sorry i can't do this {n1}")
