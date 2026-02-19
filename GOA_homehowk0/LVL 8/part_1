@@ -1,0 +1,11 @@
+n =int(input("Enter you num: "))
+
+zum = 0
+i = 1
+
+while i <= n:
+    if i % 2 == 0:
+        zum += i
+    i += 1
+
+print("your num is  " , zum)
